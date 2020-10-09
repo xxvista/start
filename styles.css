@@ -1,0 +1,199 @@
+body {
+  background-color: #00334e;
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+  margin: 18px 5% 8px;
+  -webkit-text-stroke: 1px #fff;
+  font-size: 2.9rem;
+  font-family: 'Press Start 2P', cursive;
+  line-height: 1.5;
+}
+
+p {
+  color: #fff;
+  margin: 8px 5% 5%;
+  font-size: 2rem;
+  font-family: 'Press Start 2P', cursive;
+  line-height: 1.5;
+}
+
+.container {
+  display: block;
+  width: 74%;
+  margin: auto;
+}
+
+.btn {
+  margin: 20px;
+  display: inline-block;
+  height: 14rem;
+  width: 14rem;
+  border: 10px solid black;
+  border-radius: 19%;
+}
+
+.red {
+  background-color: red;
+}
+
+.pink {
+  background-color: Magenta;
+}
+
+.blue {
+  background-color: DodgerBlue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.black {
+  background-color: black;
+}
+
+.white {
+  background-color: white;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    display: block;
+    width: 94%;
+    margin: auto;
+  }
+  }
+  @media screen and (max-width: 960px) {
+    .container {
+      display: block;
+      width: 100%;
+      margin: auto;
+    }
+    .btn {
+      margin: 20px;
+      display: inline-block;
+      height: 18rem;
+      width: 18rem;
+      border: 10px solid black;
+      border-radius: 19%;
+    }
+    }
+    @media screen and (max-width: 734px) {
+      .container {
+        display: block;
+        width: 100%;
+        margin: auto;
+      }
+      .btn {
+        margin: 20px;
+        display: inline-block;
+        height: 14rem;
+        width: 14rem;
+        border: 10px solid black;
+        border-radius: 19%;
+      }
+      }
+/* @media screen and (max-width: 1200px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  .container {
+    display: block;
+    width: 70%;
+    margin: auto;
+  }
+  .btn {
+    margin: 15px;
+    height: 222px;
+    width: 222px;
+  }
+  p {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  .container {
+    display: block;
+    width: 90%;
+    margin: auto;
+  }
+  .btn {
+    margin: 15px;
+    height: 222px;
+    width: 222px;
+  }
+  p {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (max-width: 760px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  .container {
+    display: block;
+    width: 100%;
+    margin: auto;
+  }
+  .btn {
+    margin: 15px;
+    height: 196px;
+    width: 196px;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 670px) {
+  h1 {
+    font-size: 1.9rem;
+  }
+  .container {
+    display: block;
+    width: 96%;
+    margin: auto;
+  }
+  .btn {
+    margin: 6px;
+    height: 176px;
+    width: 176px;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  h1 {
+    font-size: 1.6rem;
+  }
+  .container {
+    display: block;
+    width: 100%;
+    margin: auto;
+  }
+  .btn {
+    margin: 6px;
+    height: 81px;
+    width: 81px;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+} */
